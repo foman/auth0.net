@@ -8,7 +8,6 @@ namespace Auth0.ManagementApi.Models
     /// </summary>
     public class EmailVerificationTicketRequest
     {
-        
         /// <summary>
         /// The user will be redirected to this endpoint once the ticket is used.
         /// </summary>
