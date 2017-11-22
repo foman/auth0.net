@@ -20,7 +20,6 @@ namespace Auth0.ManagementApi.Models
         [JsonProperty("user_id")]
         public string UserId { get; set; }
 
-
         /// <summary>
         /// The ticket's lifetime in seconds starting from the moment of creation. 
         /// After expiration the ticket can not be used to verify the users's email. 
